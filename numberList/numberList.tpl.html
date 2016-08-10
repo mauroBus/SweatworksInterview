@@ -1,0 +1,13 @@
+<div class="list clearfix"
+  ng-class="{
+    'list-right': !displayLeft,
+    'list-left': displayLeft
+  }" >
+
+  <test-number
+    ng-repeat="(key, number) in numbers"
+    number="number"
+    ng-show="(!(number % 2) && showEven) || (number % 2 && showOdd)" >
+  </test-number>
+
+</div>
