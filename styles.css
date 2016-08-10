@@ -4,9 +4,13 @@ html, body {
 	padding: 0;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
 .content {
 	height: 100%;
-	background-color: red;
+	background-color: #ffc356;
 	max-width: 920px;
 	margin-left: auto;
 	margin-right: auto;
@@ -20,10 +24,34 @@ html, body {
 	background-color: orange;
 }
 
+.controls-holder .active {
+  color: #e20000;
+}
+
 .numbers-holder {
 	display: inline-block;
 }
 
 .buttons-holder {
 	float: right;
+}
+
+.list {
+	margin: 10px;
+}
+
+.list.list-right {
+	text-align: right;
+}
+.list.list-left {
+	text-align: left;
+}
+
+test-number {
+	clear: both;
+
+}
+
+.list .test-number {
+	margin: 0 10px;
 }

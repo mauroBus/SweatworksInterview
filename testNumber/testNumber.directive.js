@@ -7,10 +7,7 @@ angular.module('test')
     scope: {
       number: '='
     },
-    templateUrl: 'testNumber/testNumber.tpl.html',
-    controller: ['$scope', function($scope) {
-      
-    }]
+    templateUrl: 'testNumber/testNumber.tpl.html'
   };
 
 });
